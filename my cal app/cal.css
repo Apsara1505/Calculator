@@ -1,0 +1,56 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #fff, rgb(223, 173, 37));
+}
+
+.calc{
+    width: 250px;
+    height: 420px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #bdbbce;
+    border: 5px solid black;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.screen{
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+    background: black;
+    border-radius: 5px;
+    border: 5px solid grey;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.bn{
+    width: 55px;
+    height: 55px;
+    margin: 2px;
+    padding: 9px;
+    background: black;
+    border-radius: 5px;
+    border: 5px solid grey;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.bn:hover{
+    transform: scale(1.08);
+    transition: .5s;
+}
